@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gentium Plus', serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background1 {
+    background-image: url("../image/front-page-header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bgpattern {
+    background-image: url(../image/pattern.png);
+}
+
+.bgpurple {
+    background-image: url(../image/testiomnials-background.jpg);
+    background-repeat: no-repeat;
+}
+
+.testimonial {
+    background-color: #6a4d8a;
+    width: 80%;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 15px 5px;
+    position: relative;
+}
+
+.testimonial::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #6a4d8a transparent transparent transparent;
+}
+
+.carousel-indicators {
+    margin: 10px auto;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    border: 1x solid white;
+}
+
+.bgyellow {
+    background-image: url(../image/front-page-counter.jpg);
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width:576px) {
+    .background1 {
+        background-position: center;
+    }
+    .txt {
+        text-align: center;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .background1 {
+        background-position: center;
+    }
+    .txt {
+        text-align: center;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .background1 {
+        background-position: center;
+        background-size: cover;
+    }
+    .fs-md li {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .fs-md>button {
+        margin-left: 50%;
+    }
+    .fs1>button {
+        margin-right: 50%;
+    }
+    .fs-md button a {
+        font-size: 1.5rem;
+    }
+    .fs1 button a {
+        font-size: 1.5rem;
+    }
+    .flx>div {
+        width: 32% !important;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .fs-md li {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
