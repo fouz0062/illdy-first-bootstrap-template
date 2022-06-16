@@ -72,6 +72,9 @@ a {
     .d-flex {
         justify-content: center;
     }
+    .txtp {
+        color: white !important;
+    }
 }
 
 @media only screen and (min-width:576px) {
@@ -87,12 +90,25 @@ a {
     .pimg>div {
         width: 50%;
     }
+    .txtp {
+        color: white !important;
+    }
 }
 
 @media only screen and (min-width:768px) {
     .background1 {
         background-position: center;
         background-size: cover;
+        height: 100vh;
+    }
+    .txt {
+        font-size: 5rem;
+    }
+    .txtp {
+        color: rgb(33, 37, 41) !important;
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
     }
     .fs-md li {
         font-size: 1rem;
