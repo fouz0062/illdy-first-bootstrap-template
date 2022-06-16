@@ -25,28 +25,29 @@ a {
 
 .testimonial {
     background-color: #6a4d8a;
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
     margin: 2rem auto;
     padding: 15px 5px;
     position: relative;
 }
 
-.testimonial::after {
+
+/* .testimonial::after {
     position: absolute;
     content: "";
     top: 100%;
-    left: 50%;
+    right: 50%;
     margin-left: -5px;
-    border-width: 20px;
+    border-width: 7px;
     border-style: solid;
     border-color: #6a4d8a transparent transparent transparent;
-}
+} */
 
 .carousel-indicators {
     margin: 10px auto;
     width: 50%;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .carousel-indicators button {
@@ -83,6 +84,9 @@ a {
     .d-flex {
         justify-content: center;
     }
+    .pimg>div {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -108,6 +112,17 @@ a {
     }
     .flx>div {
         width: 32% !important;
+    }
+    .flx1>div {
+        width: 32%;
+        margin: 0 2px;
+    }
+    .flx2>div {
+        width: 33%;
+        text-align: center;
+    }
+    .pimg>div {
+        width: 25%;
     }
 }
 
