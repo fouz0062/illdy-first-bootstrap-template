@@ -32,17 +32,16 @@ a {
     position: relative;
 }
 
-
-/* .testimonial::after {
+.testimonial::after {
     position: absolute;
     content: "";
     top: 100%;
-    right: 50%;
+    right: 48%;
     margin-left: -5px;
-    border-width: 7px;
+    border-width: 15px;
     border-style: solid;
     border-color: #6a4d8a transparent transparent transparent;
-} */
+}
 
 .carousel-indicators {
     margin: 10px auto;
